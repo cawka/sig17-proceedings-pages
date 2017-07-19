@@ -1,0 +1,171 @@
+committees:
+    - role: General Chairs
+      people:
+      - name:        K. K. Ramakrishnan
+        affiliation: University of California, Riverside
+        homepage:    http://www.cs.ucr.edu/~kk/
+
+      - name:        Lixia Zhang
+        affiliation: University of California, Los Angeles
+        homepage:    http://web.cs.ucla.edu/~lixia/
+
+    - role: Local Arrangements Chairs
+      people:
+      - name:        Peter Reiher
+        affiliation: University of California, Los Angeles
+        homepage:    http://fmg-www.cs.ucla.edu/reiher/
+
+      - name:        Bharathan Balaji
+        affiliation: University of California, Los Angeles
+        homepage:    http://www.synergylabs.org/bharath/
+
+    - role: Mentoring Chairs
+      people:
+      - name:        Fahad Dogar
+        affiliation: Tufts University
+        homepage:    http://www.cs.tufts.edu/Faculty/fahad-dogar.html
+
+    - role: Publication Chairs
+      people:
+      - name:        Sergey Gorinsky
+        affiliation: IMDEA Networks Institute
+        homepage:    http://fourier.networks.imdea.org/~sergey_gorinsky/
+
+    - role: Publicity Chairs
+      people:
+      - name:        Alex Afanasyev
+        affiliation: University of California, Los Angeles
+        homepage:    http://lasr.cs.ucla.edu/afanasyev/index.html
+
+      - name:        Mayutan Arumaithurai
+        affiliation: University of Goettingen
+        homepage:    http://user.informatik.uni-goettingen.de/~marumait/
+
+      - name:        Dan Li
+        affiliation: Tsinghua University
+        homepage:    http://nasp.cs.tsinghua.edu.cn/lidan.html
+
+    - role: Registration Chair
+      people:
+      - name:        Jiasi Chen
+        affiliation: University of California, Riverside
+        homepage:    http://www.cs.ucr.edu/~jiasi/
+
+    - role: Travel Grant Chairs
+      people:
+      - name:        Lan Wang
+        affiliation: University of Memphis
+        homepage:    http://web0.cs.memphis.edu/~lanwang/
+
+      - name:        Hamed Haddadi
+        affiliation: Queen Mary University of London, UK
+        homepage:    http://www.eecs.qmul.ac.uk/~hamed/
+
+    - role: Treasurer
+      people:
+      - name:        Minlan Yu
+        affiliation: Yale University
+        homepage:    http://www.cs.yale.edu/homes/yu-minlan/
+
+    - role: Tutorial Chair
+      people:
+      - name:        Lars Eggert
+        affiliation: NetApp
+        homepage:    https://eggert.org/
+
+      - name:        Lili Qiu
+        affiliation: University of Texas at Austin
+        homepage:    https://www.cs.utexas.edu/~lili/
+
+    - role: Workshop Chairs
+      people:
+      - name:        David Oran
+        affiliation:
+        homepage:
+
+      - name:        Bruce Maggs
+        affiliation: Duke Univeristy / Akamai Technologies
+        homepage:    https://users.cs.duke.edu/~bmm/
+
+    - role: Conference Coordinator
+      people:
+      - name:        Yashar Ganjali
+        affiliation: University of Toronto, Canada
+        homepage:    http://www.cs.toronto.edu/~yganjali/
+
+    - role: Program Committee Chairs
+      people:
+      - name:        Alex C. Snoeren
+        affiliation: UC San Diego
+        homepage:    http://cseweb.ucsd.edu/~snoeren/
+      - name:        Walter Willinger
+        affiliation: NIKSUN, Inc.
+        homepage:    
+
+    - role: N2Women Chairs
+      people:
+      - name:        Radhika Niranjan Mysore
+        affiliation: Google
+        homepage:
+
+    - role: Poster Chair
+      people:
+      - name:        Matthias Wählisch
+        affiliation: Freie Universität Berlin, Germany
+        homepage:    http://www.inf.fu-berlin.de/users/waehl/
+
+    - role: Demo Chairs
+      people:
+      - name:        Jeff Burke
+        affiliation: University of California, Los Angeles
+        homepage:    http://jeff-burke.com/bio/
+
+      - name:        Nicholas Zhang
+        affiliation: Huawei
+        homepage:
+
+    - role: Industrial Demo Chairs
+      people:
+      - name:        David Meyer
+        affiliation: Brocade
+        homepage:    http://www.1-4-5.net/~dmm/vita.html
+
+      - name:        Puneet Sharma <puneet.sharma@hpe.com>
+        affiliation: Hewlett Packard Labs
+        homepage:    https://www.linkedin.com/in/puneetsharma
+
+    - role: Student Research Competition Chairs
+      people:
+      - name:        Vishal Misra
+        affiliation: Columbia University
+        homepage:    http://www.cs.columbia.edu/~misra/
+
+      - name:        Vyas Sekar
+        affiliation: Carnegie Mellon University
+        homepage:    https://users.ece.cmu.edu/~vsekar/
+
+    - role: Topic Preview Chairs
+      people:
+      - name:        Ethan Katz-Bassett
+        affiliation: University of Southern California
+        homepage:    http://www-bcf.usc.edu/~katzbass/
+
+      - name:        Justine Sherry
+        affiliation: Carnegie Mellon University
+        homepage:    http://www.justinesherry.com/
+
+    - role: Sponsorship Chair
+      people:
+      - name:        Giovanni Pau
+        affiliation: University Pierre et Marie Curie/LIP6, Paris, France
+        homepage:    https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau
+
+    - role: Web Chair
+      people:
+      - name:        Alex Afanasyev
+        affiliation: University of California, Los Angeles
+        homepage:    http://lasr.cs.ucla.edu/afanasyev/index.html
+
+      - name:        Vahab Pournaghshband
+        affiliation:  California State University, Northridge
+        homepage:    http://www.csun.edu/ansr/vahab/index.html

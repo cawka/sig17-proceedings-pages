@@ -1,0 +1,112 @@
+committees:
+    - role: Program Committee Chairs
+      people:
+      - name:        Alex C. Snoeren
+        affiliation: UC San Diego
+        homepage:    http://cseweb.ucsd.edu/~snoeren/
+      - name:        Walter Willinger
+        affiliation: NIKSUN, Inc.
+        homepage:    
+
+    - role: Program Committee Members
+      people:
+      - name: Mohammad Alizadeh
+        affiliation: MIT
+      - name: Sujata Banerjee
+        affiliation: VMware
+      - name: Suman Banerjee
+        affiliation: University of Wisconsin - Madison
+      - name: Theo Benson
+        affiliation: Duke University
+      - name: John W. Byers
+        affiliation: Boston University
+      - name: Marco Canini
+        affiliation: KAUST
+      - name: Ranveer Chandra
+        affiliation: Microsoft Research
+      - name: David Choffnes
+        affiliation: Northeastern University
+      - name: Mosharaf Chowdhury
+        affiliation: University of Michigan
+      - name: Mark Crovella
+        affiliation: Boston University
+      - name: Rubén Cuevas
+        affiliation: Universidad Carlos III de Madrid
+      - name: Italo Cunha
+        affiliation: UFMG
+      - name: Xenofontas Dimitropoulos
+        affiliation: University of Crete & FORTH
+      - name: Nandita Dukkipati
+        affiliation: Google
+      - name: Nate Foster
+        affiliation: Cornell University
+      - name: Monia Ghobadi
+        affiliation: Microsoft Research
+      - name: Phillipa Gill
+        affiliation: University of Massachusetts - Amherst
+      - name: Sharon Goldberg
+        affiliation: Boston University
+      - name: Shyam Gollakota
+        affiliation: University of Washington
+      - name: Arjun Guha
+        affiliation: University of Massachusetts - Amherst
+      - name: Andreas Haeberlen
+        affiliation: University of Pennsylvania
+      - name: Haitham Hassanieh
+        affiliation: UIUC
+      - name: Changhoon Kim
+        affiliation: Barefoot Networks
+      - name: Teemu Koponen
+        affiliation: Styra
+      - name: Arvind Krishnamurthy
+        affiliation: University of Washington
+      - name: Nikolaos Laoutaris
+        affiliation: Telefonica
+      - name: Olaf Maennel
+        affiliation: Tallinn University of Technology
+      - name: Ratul Mahajan
+        affiliation: Microsoft Research
+      - name: Z. Morley Mao
+        affiliation: University of Michigan
+      - name: Michael Mitzenmacher
+        affiliation: Harvard University
+      - name: Venkat Padmanabhan
+        affiliation: Microsoft Research India
+      - name: Dina Papagiannaki
+        affiliation: Google
+      - name: George Papen
+        affiliation: UC San Diego
+      - name: Barath Raghavan
+        affiliation: ICSI
+      - name: Bhaskaran Raman
+        affiliation: IIT Bombay
+      - name: Pablo Rodriguez
+        affiliation: Telefonica
+      - name: Michael Schapira
+        affiliation: Hebrew University of Jerusalem
+      - name: Vyas Sekar
+        affiliation: Carnegie Mellon University
+      - name: Justine Sherry
+        affiliation: Carnegie Mellon University
+      - name: Ankit Singla
+        affiliation: ETH Zürich
+      - name: Kun Tan
+        affiliation: Huawei
+      - name: Renata Teixeira
+        affiliation: Inria
+      - name: Amin Vahdat
+        affiliation: Google
+      - name: Laurent Vanbever
+        affiliation: ETH Zürich
+      - name: George Varghese
+        affiliation: UCLA
+      - name: Keith Winstein
+        affiliation: Stanford University
+      - name: Haifeng Yu
+        affiliation: National University of Singapore
+      - name: Minlan Yu
+        affiliation: Yale University
+      - name: James Hongyi Zeng
+        affiliation: Facebook
+      - name: Ming Zhang
+        affiliation: Alibaba Group
