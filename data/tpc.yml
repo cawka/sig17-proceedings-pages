@@ -6,7 +6,7 @@ committees:
         homepage:    http://cseweb.ucsd.edu/~snoeren/
       - name:        Walter Willinger
         affiliation: NIKSUN, Inc.
-        homepage:    
+        homepage:
 
     - role: Program Committee Members
       people:
@@ -110,3 +110,20 @@ committees:
         affiliation: Facebook
       - name: Ming Zhang
         affiliation: Alibaba Group
+
+    - role: Additional Reviewers
+      people:
+      - name:        David G. Anderson
+        affiliation: Carnegie Mellon University, USA)
+      - name:        Pat Bosshard
+        affiliation: Barefoot Networks, USA)
+      - name:        Petr Kuznetsov
+        affiliation: Telecom ParisTech, France)
+      - name:        James Larus
+        affiliation: EPFL, Switzerland)
+      - name:        Raluca Ada Popa
+        affiliation: University of California, Berkeley, USA)
+      - name:        Srinivasan Seshan
+        affiliation: Carnegie Mellon University, USA)
+      - name:        Darryl Veitch
+        affiliation: University of Technology Sydney, Australia)

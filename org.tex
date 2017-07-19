@@ -1,123 +1,24 @@
-\documentclass[11pt]{article}
-\usepackage[margin=0.9in]{geometry}
-% \usepackage{graphics}
-\usepackage{graphicx}
+\documentclass[sigconf]{acmart}
+\usepackage[utf8x]{inputenc}
 
-\pagestyle{empty}
-% \usepackage{times}
+\settopmatter{printacmref=false} % Removes citation information below abstract 
 
-\graphicspath{{sponsors/}}
-\usepackage{parskip}
-\usepackage{supertabular}
-
-\usepackage{ragged2e}
-\usepackage{array}
-\newcolumntype{L}[1]{>{\RaggedRight\hspace{0pt}}m{#1}}
-\newcolumntype{R}[1]{>{\RaggedLeft\hspace{0pt}}p{#1}}
-\newcolumntype{C}[1]{>{\centering\arraybackslash\hspace{0pt}}p{#1}}
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column 
 
 \begin{document}
 
+\onecolumn
+\thispagestyle{empty}
+\pagestyle{empty}
+
 \begin{center}
-\Large\textbf{ACM SIGCOMM 2017 Organizing Committee}
+{\huge ACM SIGCOMM 2017 Technical Program Organization}
 \end{center}
 
-\vspace{0.2cm}
+\vspace{.10in}
 
-\begin{supertabular}{L{5cm} L{11cm}}
-\textbf{General Chairs:}
- & K. K. Ramakrishnan \emph{(University of California, Riverside)} \\
- & Lixia Zhang \emph{(University of California, Los Angeles)} \\
-\\
+\setlength\parindent{0pt}
 
-\textbf{Local Arrangements Chairs:\xdef\tempwidth{\the\linewidth}}
- & Peter Reiher \emph{(University of California, Los Angeles)} \\
- & Bharathan Balaji \emph{(University of California, Los Angeles)} \\
-\\
-
-\textbf{Mentoring Chairs:}
- & Fahad Dogar \emph{(Tufts University)} \\
-\\
-
-\textbf{Publication Chairs:}
- & Sergey Gorinsky \emph{(IMDEA Networks Institute)} \\
-\\
-
-\textbf{Publicity Chairs:}
- & Alex Afanasyev \emph{(University of California, Los Angeles)} \\
- & Mayutan Arumaithurai \emph{(University of Goettingen)} \\
- & Dan Li \emph{(Tsinghua University)} \\
-\\
-
-\textbf{Registration Chair:}
- & Jiasi Chen \emph{(University of California, Riverside)} \\
-\\
-
-\textbf{Travel Grant Chairs:}
- & Lan Wang \emph{(University of Memphis)} \\
- & Hamed Haddadi \emph{(Queen Mary University of London, UK)} \\
-\\
-
-\textbf{Treasurer:}
- & Minlan Yu \emph{(Yale University)} \\
-\\
-
-\textbf{Tutorial Chair:}
- & Lars Eggert \emph{(NetApp)} \\
- & Lili Qiu \emph{(University of Texas at Austin)} \\
-\\
-
-\textbf{Workshop Chairs:}
- & David Oran \\
- & Bruce Maggs \emph{(Duke Univeristy / Akamai Technologies)} \\
-\\
-
-\textbf{Conference Coordinator:}
- & Yashar Ganjali \emph{(University of Toronto, Canada)} \\
-\\
-
-\textbf{Program Committee Chairs:}
- & Alex C. Snoeren \emph{(UC San Diego)} \\
- & Walter Willinger \emph{(NIKSUN, Inc.)} \\
-\\
-
-\textbf{N2Women Chairs:}
- & Radhika Niranjan Mysore \emph{(Google)} \\
-\\
-
-\textbf{Poster Chair:}
- & Matthias Wählisch \emph{(Freie Universität Berlin, Germany)} \\
-\\
-
-\textbf{Demo Chairs:}
- & Jeff Burke \emph{(University of California, Los Angeles)} \\
- & Nicholas Zhang \emph{(Huawei)} \\
-\\
-
-\textbf{Industrial Demo Chairs:}
- & David Meyer \emph{(Brocade)} \\
- & Puneet Sharma \emph{(Hewlett Packard Labs)} \\
-\\
-
-\textbf{Student Research Competition Chairs:}
- & Vishal Misra \emph{(Columbia University)} \\
- & Vyas Sekar \emph{(Carnegie Mellon University)} \\
-\\
-
-\textbf{Topic Preview Chairs:}
- & Ethan Katz-Bassett \emph{(University of Southern California)} \\
- & Justine Sherry \emph{(Carnegie Mellon University)} \\
-\\
-
-\textbf{Sponsorship Chair:}
- & Giovanni Pau \emph{(University Pierre et Marie Curie/LIP6, Paris, France)} \\
-\\
-
-\textbf{Web Chair:}
- & Alex Afanasyev \emph{(University of California, Los Angeles)} \\
- & Vahab Pournaghshband \emph{(California State University, Northridge)} \\
-
-\end{supertabular}
+\input{org_in}
 
 \end{document}
-

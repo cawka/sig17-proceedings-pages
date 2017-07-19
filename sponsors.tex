@@ -1,22 +1,31 @@
-\documentclass[12pt]{article}
-\usepackage[margin=1in]{geometry}
-% \usepackage{graphics}
+\documentclass[sigconf]{acmart}
+\usepackage[utf8x]{inputenc}
 \usepackage{graphicx}
-
-\pagestyle{empty}
-% \usepackage{times}
-
 \graphicspath{{sponsors/}}
-\usepackage{parskip}
+
+\settopmatter{printacmref=false} % Removes citation information below abstract 
+
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column 
+
+% \pagestyle{plain} 
+% \thispagestyle{empty}
+% \thispagestyle{empty}
 
 \begin{document}
 
+\onecolumn
+\thispagestyle{empty}
+\pagestyle{empty}
+
 \begin{center}
-\Large\textbf{ACM SIGCOMM 2017 Sponsors \& Supporters}
+{\huge ACM SIGCOMM 2017 Sponsors \& Supporters}
 \end{center}
 
-% \vspace{0.2cm}
-\textbf{Sponsors:}
+\vspace{.10in}
+
+\setlength\parindent{0pt}
+
+\textbf{\large Sponsors:}
 
 \begin{center}
   \includegraphics[width=2in]{acm.png}
@@ -24,7 +33,7 @@
   \includegraphics[width=2in]{sig.png}
 \end{center}
 
-\textbf{Supporters:}
+\textbf{\large Supporters:}
 
 \begin{center}
 
@@ -46,7 +55,7 @@
 \includegraphics[width=3in]{alibaba.jpg}
 \hspace{0.2in}
 \includegraphics[width=1.5in]{google.png}
-\\[0.5cm]
+\\[0.8cm]
 
 \includegraphics[width=1.2in]{thousand-eyes.jpg}
 \hspace{0.2in}
@@ -57,7 +66,7 @@
 \includegraphics[width=2in]{microsoft.jpg}
 \hspace{0.2in}
 \includegraphics[width=1.5in]{amazon.png}
-\\[-0.1cm]
+\\[0.3cm]
 
 \includegraphics[width=1.9in]{akamai.png}
 \hspace{0.2in}

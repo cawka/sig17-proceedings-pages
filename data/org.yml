@@ -19,13 +19,13 @@ committees:
         affiliation: University of California, Los Angeles
         homepage:    http://www.synergylabs.org/bharath/
 
-    - role: Mentoring Chairs
+    - role: Mentoring Chair
       people:
       - name:        Fahad Dogar
         affiliation: Tufts University
         homepage:    http://www.cs.tufts.edu/Faculty/fahad-dogar.html
 
-    - role: Publication Chairs
+    - role: Publication Chair
       people:
       - name:        Sergey Gorinsky
         affiliation: IMDEA Networks Institute
@@ -34,7 +34,7 @@ committees:
     - role: Publicity Chairs
       people:
       - name:        Alex Afanasyev
-        affiliation: University of California, Los Angeles
+        affiliation: Florida International University
         homepage:    http://lasr.cs.ucla.edu/afanasyev/index.html
 
       - name:        Mayutan Arumaithurai
@@ -102,7 +102,7 @@ committees:
         affiliation: NIKSUN, Inc.
         homepage:    
 
-    - role: N2Women Chairs
+    - role: N2Women Chair
       people:
       - name:        Radhika Niranjan Mysore
         affiliation: Google
@@ -130,7 +130,7 @@ committees:
         affiliation: Brocade
         homepage:    http://www.1-4-5.net/~dmm/vita.html
 
-      - name:        Puneet Sharma <puneet.sharma@hpe.com>
+      - name:        Puneet Sharma
         affiliation: Hewlett Packard Labs
         homepage:    https://www.linkedin.com/in/puneetsharma
 
@@ -160,10 +160,10 @@ committees:
         affiliation: University Pierre et Marie Curie/LIP6, Paris, France
         homepage:    https://www.lip6.fr/actualite/personnes-fiche.php?nom=Pau
 
-    - role: Web Chair
+    - role: Web Chairs
       people:
       - name:        Alex Afanasyev
-        affiliation: University of California, Los Angeles
+        affiliation: Florida International University
         homepage:    http://lasr.cs.ucla.edu/afanasyev/index.html
 
       - name:        Vahab Pournaghshband

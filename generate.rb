@@ -1,14 +1,29 @@
 require 'yaml'
 
-tpc = YAML.load_file('org.yml')
+ARGV.each{ |file|
+  data = YAML.load_file(file)
 
-tpc['committees'].each{ |c|
-  
-  print "\\textbf{#{ c['role'] }:}\n"
+  data['committees'].each{ |c|
 
-  c['people'].each{ |p|
-    print " & #{p['name']} \\emph{(#{p['affiliation']})} \\\\\n"
+    print %{\\begin{minipage}[t]{.3\\textwidth}\\raggedright
+    {\\bf #{c['role'].gsub(/&/, /\\&/.source)}:}
+\\end{minipage}
+\\hspace{2mm}
+\\begin{minipage}[t]{.7\\textwidth}
+}
+
+    c['people'].each{ |p|
+      print "    #{p['name']}"
+
+      if not p['affiliation'].nil?
+        print " \\emph{(#{p['affiliation'].gsub(/&/, /\\&/.source)})}"
+      end
+      print "\\\\\n"
+    }
+
+    print %{\\end{minipage}
+
+}
+
   }
-  print "\\\\\n\n"
-  
 }

@@ -1,4 +1,4 @@
-PRJ = org1a org tpc sponsors
+PRJ = org tpc sponsors
 
 BUILD = pdflatex ${EXTRA}
 
@@ -6,9 +6,15 @@ BUILD = pdflatex ${EXTRA}
 
 all : $(PRJ:=.pdf)
 
-%.pdf : %.tex
+%_in.tex : data/%.yml
+	test -f $< && ruby generate.rb $< > $@
+
+%.pdf : %.tex %_in.tex
+	${BUILD} $<
+
+sponsors.pdf : sponsors.tex
 	${BUILD} $<
 
 clean:
 	rm -Rf latex.out
-	rm -f *.toc *.aux *.bbl *.blg *.log *~* *.bak *.out *synctex.gz $(PRJ:=.pdf)
+	rm -f *.toc *.aux *.bbl *.blg *.log *~* *.bak *.out *synctex.gz $(PRJ:=.pdf) $(PRJ:=_in.tex)
